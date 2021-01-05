@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* applies to entire web page */
+html, body{
+    height: 100%;
+ }
+/* contains every element */
+.container {
+    width: 100%;
+    height: 100%;
+    background: #42455a;
+    color: azure;
+}
+
+/* navigation menu items */
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    color: azure;
+    cursor: pointer;
+}
+/* site logo */
+.logo img{
+    width: 50px;
+    margin-top: -20px;
+    margin-right: 28px;
+}
+
+/* when a button is active on the main navigation menu */
+.active{
+    color: #42455a !important;
+}
+
+/* navigation hire menu */
+.hire-btn {
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: azure;
+    background-color: rgb(0, 177, 180);
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+/* h1{
+    font-size: 70px;
+    font-weight: 400px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 50px;
+} */
+
+/* it only change colors inside span tag of any text */
+.highlight{
+    color: darkturquoise;
+}
+
+/* website main view */
+.hero {
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+}
+
+.hero-text {
+    width: 50%;
+    float: left;
+}
+.hero-text h1{
+    font-size: 70px;
+    width: 640px;
+    position: relative;
+    margin: 20px;
+}
+.hero-text h2{
+    font-size: 30px;
+    width: 640px;
+    position: relative;
+    margin: 20px;
+}
+.hero-text p{
+    font-size: 20px;
+    width: 640px;
+    position: relative;
+    margin: 20px;
+}
+.banner-btn {
+    margin: 20px;
+    text-decoration: none;
+    color: azure;
+    background-color: rgb(0, 177, 180);
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.hero-img {
+    width: 50%;
+    float: left;
+}
+.hero-img img{
+    width: 100%;
+    /* height: 600px; */
+    float: right;
+    margin-top: -100px;
+}
+
+/* bottom navigation menu */
+.quick-navigation{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    padding-left: 400px;
+    /* background: darkturquoise; */
+    background: linear-gradient(15deg,  darkseagreen, rgb(0, 129, 131));
+    border-radius: 20px 0 0 0;
+    border-right: 40px solid rgb(0, 160, 138);
+}
+
+.quick-navigation ul{
+    display: inline-flex;
+    margin: 50px, auto;
+    text-align: center;
+}
+.quick-navigation ul li{
+    list-style: none;
+    margin: 40px 50px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.quick-navigation ul li a{
+    text-decoration: none;
+    color: azure;
+}
+
+/* section two css styles from here */
+
+.st-column{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 5%;
+    margin-top: 5%;
+}
+
+.st-column h1{
+    font-size: 70px;
+    width: 640px;
+    position: relative;
+    margin: 20px;
+}
+.st-column h2{
+    font-size: 30px;
+    width: 640px;
+    position: relative;
+    margin: 20px;
+}
+.st-column p{
+    font-size: 20px;
+    width: 640px;
+    position: relative;
+    margin: 20px;
+}
+/* section three extended part */
+.sec-three-extend{
+    text-align: center;
+}
+
+/* section three css from here */
+.section-three{
+    padding: 200px 80px;
+    background: rgb(228, 255, 254);
+    float: left;
+    margin: 20px -5px;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+}
+
+.card{
+    background: #42455a;
+    color:  rgb(228, 255, 254);
+    width: 25%;
+    padding: 40px;
+    margin: 2%;
+    box-shadow: 0 14px 18px 05px rgba(0, 0, 0, 0.404);
+    text-align: center;
+    border-radius: 15px;
+}
+
+.card img{
+    width: 420px;
+    margin-bottom: 10px;
+}
+
+.card h1{
+    font-size: 40px;
+}
