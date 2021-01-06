@@ -171,7 +171,7 @@
     margin-bottom: 10px;
   }
 
-  .card-header{
+  .card-header{       /* it's for both blog header and project header */
       text-align: center;
   }
 /* test blog  */
@@ -285,21 +285,20 @@
 /* work inquiery section ends */
 
 /* social section starts here */
-.five
+.social
 {
     text-align: center;
     
     color: #363958; 
     font-size: 20px;
 }
-#making-bigger
-{
-    font-size: 30px;
-    font-weight: 600;
-    padding: 0%;
-}
-.icon-sizing
-{
-    width: 3%;
+.social-icon{
+    width: 2%;
 }
 /* social section ends here */
+
+/* footer start */
+footer{
+    text-align: center;
+}
+/* footer end */
