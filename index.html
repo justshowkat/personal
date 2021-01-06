@@ -3,84 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"> 
 
-    <title>portfolio</title>
+    <title>test</title>
 </head>
 <body>
+    <!-- hero section starts here -->
     <div class="container">
-        <!-- nav menu starts here -->
-        <div class="menu">
-            <ul class="main">
-                <li class="logo"><img src="./img/logo.png" alt=""></li>
-                <li> <a href="https://www.linkedin.com" target="_blank" class="hire-btn"> Hire me</a></li>
-            </ul>
+        
+      <div class="hero-row">
+        <div class="hero-column ">
+            <h1 class="hero-text hero-h1">I Design & Develop <br>
+                what you desire</h1>
+            <h2 class="hero-text hero-h2">You tell me what you need...</h2>
+            <p class="hero-text hero-p">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem....</p>
+            <br> <button class="hero-btn btn primary">learn more >></button>
         </div>
-        <!-- nav menu ends -->
-        <!-------------------------------- main section or hero section starts here -------------------------------------->
-        <div class="hero">
-            <div class="hero-text">
-                <h1>I <span class="highlight">Design & Develop</span><br> what you desire</h1>
-                <h2>You tell me what you need...</h2>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem....</p>
-                <a href="https://www.linkedin.com" target="_blank" class="banner-btn"> Learn more >></a>
-            </div>
-            <div class="hero-img">
-                <img src="./img/hero.png" alt="">
-            </div>
+        <div class="hero-column hero-img-div">
+          <img class="hero-img" src="./img/hero.png" alt="hero section image">
         </div>
         <div class="quick-navigation">
             <ul>
-                <li class="active">Home</li>
-                <li><a href="#section-two">About Me</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Me</a></li>
                 <li><a href="#section-three">Portfolio</a></li>
-                <li><a href="#section-three">Contact</a></li>
+                <li><a href="#blog">Blog</a></li>
                 <li><a href="#section-three">Social</a></li>
             </ul>
        </div>
+      </div>
+
     </div>
-    <!------------------------------------------------------ hero section ends here ------------------------------------------>
+    <!-- hero section ends here -->
 
-    <!------------------------------------------------------section two starts here---------------------------------------------->
-        <div id="section-two">
-            <div class="st-column">
-                <img class="st-img" src="./img/il-home-header.svg" alt="">
-            </div>
-            <div class="st-column">
-                <h1>This is <span class="highlight">Showkat</span></h1>
-                <h2>your trusted frontend developer...</h2>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis..</p>
-                <a href="https://www.linkedin.com" target="_blank" class="banner-btn"> Learn more >></a>
-            </div>
+    <!-- section two starts here -->
+    <div class="row">
+        <div class="hero-column">
+            <img style="width: 600px;" class="hero-img" src="./img/il-home-header.svg" alt="hero section image">
         </div>
-    <!-------------------------------------------------------section two ends here---------------------------------------------->
+        <div class="hero-column">
+          <h1 id="about" class="hero-text hero-h1">This is <span class="highlight">Showkat </span></h1>
+            <h2 class="hero-text hero-h2">your trusted frontend developer...</h2>
+            <p class="hero-text hero-p"> omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem....</p>
+            <br> <button class="hero-btn btn primary">learn more >></button>
+        </div>
+    </div>
+    <!-- section two ends here -->
 
-    <!-------------------------------------------------------section three starts here---------------------------------------------->
-        <div id="section-three" class="section-three"> 
-            <!-- card one -->
-            <div class="card">
+    <!-- 3 card section starts here -->
+    <div class="project">
+        <div class="card-header">
+            <h1> <span class="highlight"> WORKING </span>PROJECT LASTET</h1>
+        </div>
+        
+    
+        <div class="row">
+        <div class="column">
+            <div class="project-card">
                 <img src="./img/image 4.png" alt="">
                 <h1>Power Gym Website</h1>
                 <p>molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
             </div>
-
-            <!-- card two -->
-            <div class="card">
+        </div>
+    
+        <div class="column">
+            <div class="project-card">
                 <img src="./img/image 5.png" alt="">
-                <h1>Tour company website</h1>
-                <p>molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-            </div>
-
-            <!-- card three -->
-            <div class="card">
-                <img src="./img/image 8.png" alt="">
-                <h1>Web based ML app</h1>
+                <h1>Creative Agency</h1>
                 <p>molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
             </div>
         </div>
+        
+        <div class="column">
+            <div class="project-card">
+                <img src="./img/image 8.png" alt="">
+                <h1>Hard rock music app</h1>
+                <p>molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            </div>
+        </div>
+        </div>
     </div>
+    
+    <!-- 3 card section ends here -->
+    <!-- test blog card section starts here -->
+    <div class="blog-cards">
+        <div class="card-header">
+            <h1 class="highlight"> BLOG</h1>
+        </div>
+    
+        <div class="blog-column">
+            <div class="blog-t-card">
+                <img src="./img/blog1.jpg" alt="">
+                <div class="blog-content">
+                    <h1>Top 10 destination for software developer</h1>
+                    <p>molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi...</p>
+                    <h3 class="blog-publish">Published by <span class="highlight">Showkat</span> 2days ago</h3> 
+                    <div class="blog-tags">
+                        <a href="#" class="blog-tag">lifestyle</a>
+                        <a href="#" class="blog-tag">web design</a>
+                        <a href="#" class="blog-tag">travel</a>
+                        <a href="#" class="blog-tag">css</a>                  
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="blog-column">
+            <div class="blog-t-card">
+                <img src="./img/blog2.jpg" alt="">
+                <div class="blog-content">
+                    <h1>Why nomad lifestyle is the popular trend among developers?</h1>
+                    <p>molestias excepturi sint occaecati cupiditate non provident, Et harum quidem rerum facilis est et expedita distinctio. similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi...</p>
+                    <h3 class="blog-publish">Published by <span class="highlight">Showkat</span> 5days ago</h3> 
+                    <div class="blog-tags">
+                        <a href="#" class="blog-tag">travel</a>
+                        <a href="#" class="blog-tag">css</a>                  
+                        <a href="#" class="blog-tag">frontend</a>
+                        <a href="#" class="blog-tag">web design</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <!-- test blog card section ends here -->
+
+    <!-- work inquiry section starts here -->
+    <div class="work-banner">
+        <div class="w-b-container">
+            <div class="work-text-div">
+                <h2>WORK INQUIRY</h2>
+            </div>
+
+            <div class="work-btn-div">
+                <a href="https://discord.com/login" target="_blank"
+                class="work-btn">Let's Chat</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- work inquiry section ends here -->
+    <!-- social section starts here -->
+    <div class="five">
+        <div id="hhh">
+            <h1>Stay connected</h1>
+            <p id="making-bigger">md.showkat8@gmail.com</p>
+            <a href="https://www.behance.net/" target="_blank"><img src="./icons/Group 33059.png" class="icon-sizing"></a>
+
+            <a href="https://dribbble.com/mshowkat" target="_blank"><img src="./icons/image 6.png" class="icon-sizing"></a>
+
+            <a href="https://www.instagram.com/justshowkat/" target="_blank"><img src="./icons/image 7.png" class="icon-sizing"></a>
+
+            
+        </div>
+    </div> 
+    <!-- social section ends here -->
 </body>
 </html>
