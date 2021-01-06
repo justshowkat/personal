@@ -28,6 +28,14 @@
 }
 
 /* this is for all the button */
+.anc-btn{
+    text-decoration: none;
+    color: #42455a;
+    background: aquamarine;
+    padding: 14px 30px;
+    margin: 30px;
+    
+}
 .btn {
     border: none; /* Remove borders */
     color: #444444; /* Add a text color */
