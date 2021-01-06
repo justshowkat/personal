@@ -36,12 +36,7 @@
     margin: 30px;
     
 }
-.btn {
-    border: none; /* Remove borders */
-    color: #444444; /* Add a text color */
-    padding: 14px 28px; /* Add some padding */
-    cursor: pointer; /* Add a pointer cursor on mouse-over */
-  }
+
 
 /* hero section starts here */
 .container{
